@@ -1,4 +1,0 @@
-gcc:
-  build: .
-  volumes:
-    - ".:/opt/workspace"

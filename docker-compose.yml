@@ -1,0 +1,8 @@
+gcc:
+  build: ./c9cc
+  volumes:
+    - "./c9cc:/opt/workspace"
+rust:
+  build: ./r9cc
+  volumes:
+    - "./r9cc:/opt/workspace"
